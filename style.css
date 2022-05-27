@@ -1,3 +1,5 @@
+/* go through css and use whats already here for the html */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -5,12 +7,17 @@ body {
   }
   
   textarea{
-    background: transparent;
+    /* background: transparent;
     border: none;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
-    padding: 10px;
+    padding: 10px; */
+
+    width: 1000px;
+    height: 100px;
+
+
   }
   
   .jumbotron {
@@ -56,6 +63,12 @@ body {
     background-color: #77dd77;
     color: white;
   }
+
+  .container{
+      display: flex;
+      justify-content: space-between;
+
+  }
   
   .saveBtn {
     border-left: 1px solid black;
@@ -63,9 +76,23 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    height: 100px;
+    width: 125px;
   }
   
   .saveBtn i:hover {
-    font-size: 20px;
+    font-size: 40px;
     transition: all .3s ease-in-out;
   }
+
+  #hourBlock{
+      border: #000000;
+      border: solid;
+      border-width: 2px;
+      border-right: 1px;
+      height: 100px;
+      width: 125px;
+      text-align: center;
+      font-size: x-large;
+  }
+
