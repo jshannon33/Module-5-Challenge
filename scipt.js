@@ -1,5 +1,13 @@
 
 let agenda = document.getElementById('agenda-text');
+let agenda2 = document.getElementById('agenda-text2');
+let agenda3 = document.getElementById('agenda-text3');
+let agenda4 = document.getElementById('agenda-text4');
+let agenda5 = document.getElementById('agenda-text5');
+let agenda6 = document.getElementById('agenda-text6');
+let agenda7= document.getElementById('agenda-text7');
+let agenda8 = document.getElementById('agenda-text8');
+let agenda9= document.getElementById('agenda-text9');
 
 // header date **NEEDS TO BE CONVERTED TO moment.js**
 let currentDate = document.getElementById('currentDay');
@@ -52,7 +60,7 @@ saveBtn.addEventListener('click', function(){
 
 
 saveBtn2.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda2.value;
 
     localStorage.setItem(key, '');
 
@@ -62,7 +70,7 @@ saveBtn2.addEventListener('click', function(){
 
 
 saveBtn3.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda3.value;
 
     localStorage.setItem(key, '');
 
@@ -72,7 +80,7 @@ saveBtn3.addEventListener('click', function(){
 
 
 saveBtn4.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda4.value;
 
     localStorage.setItem(key, '');
 
@@ -82,7 +90,7 @@ saveBtn4.addEventListener('click', function(){
 
 
 saveBtn5.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda5.value;
 
     localStorage.setItem(key, '');
 
@@ -92,7 +100,7 @@ saveBtn5.addEventListener('click', function(){
 
 
 saveBtn6.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda6.value;
 
     localStorage.setItem(key, '');
 
@@ -102,7 +110,7 @@ saveBtn6.addEventListener('click', function(){
 
 
 saveBtn7.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda7.value;
 
     localStorage.setItem(key, '');
 
@@ -112,7 +120,7 @@ saveBtn7.addEventListener('click', function(){
 
 
 saveBtn8.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda8.value;
 
     localStorage.setItem(key, '');
 
@@ -122,7 +130,7 @@ saveBtn8.addEventListener('click', function(){
 
 
 saveBtn9.addEventListener('click', function(){
-    const key = agenda.value;
+    const key = agenda9.value;
 
     localStorage.setItem(key, '');
 
